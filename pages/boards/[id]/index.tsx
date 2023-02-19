@@ -11,3 +11,7 @@ export default function BoardDetailPage() {
     </div>
   );
 }
+
+export const getServerSideProps = () => {
+  // out 폴더로 생성 불가
+};
